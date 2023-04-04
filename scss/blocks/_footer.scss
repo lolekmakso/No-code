@@ -1,0 +1,39 @@
+.footer {
+  background: #faf2ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 110px;
+  padding-bottom: 60px;
+
+  @include tablet-small{
+     gap: 50px;
+  }
+
+  @include mobile{
+    &__contact{
+        display: none;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    @include text($ffMain, 700, 1.6rem, 2rem, $darkBlue);
+  }
+
+  &__ul {
+    li{
+        margin-bottom: 20px;
+        a{
+          &:hover{
+            color: $purple-semi;
+          }
+        }
+    }
+
+    a {
+      @include text($ffMain, 400, 1.6rem, 2rem, $darkGreyBlue);
+      
+    }
+  }
+}

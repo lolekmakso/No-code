@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owl.carousel.css" />
+    <link rel="stylesheet" href="owl.theme.default.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>No-Code</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__logo">
+          <img src="img/logo.svg" alt="No-Code" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__ul" id="navUl">
+            <li class="nav__li">
+              <a href="#" class="nav__a">Course topics</a>
+            </li>
+            <li class="nav__li">
+              <a href="#" class="nav__a">What students say</a>
+            </li>
+            <li class="nav__li _ml-auto">
+              <a href="#" class="nav__a">Sign in</a>
+            </li>
+            <li class="nav__li">
+              <a href="#" class="btn _primary">Get started</a>
+            </li>
+            <span class="material-icons icon-close" onclick="navToggle()"
+              >close</span
+            >
+          </ul>
+          <span class="material-icons icon-menu" onclick="navToggle()"
+            >menu</span
+          >
+        </nav>
+      </header>
+    </div>
+
+    <section class="main-screen">
+      <div class="container main-screen__container">
+        <div class="main-screen__title">Learn no-code tools today.</div>
+        <div class="main-screen__desc">
+          Create beautiful webflow sites with flowbase. Clone for free and get
+          started building a site today.
+        </div>
+        <a href="#" class="main-screen__img">
+          <div class="video">
+            <svg class="main-screen__svg"
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M35 70C54.33 70 70 54.33 70 35C70 15.67 54.33 0 35 0C15.67 0 0 15.67 0 35C0 54.33 15.67 70 35 70Z"
+                fill="white"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M44.9167 35L30.9167 46.0833L30.9167 23.9167L44.9167 35Z"
+                fill="#001A49"
+              />
+            </svg>
+          </div>
+        </a>
+        <div class="main-screen__btn">
+          <a href="#" class="btn _primary">Get started</a>
+        </div>
+        <div class="students main-screen__students">
+          <div class="students__list">
+            <img src="img/user1.png" alt="user" />
+            <img src="img/user2.png" alt="user" />
+            <img src="img/user3.png" alt="user" />
+          </div>
+          <div class="students__text">
+            Join over <span>4,000+</span> students
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="learn-section">
+        <div class="learn-section__circle">
+          <div class="learn-section__circle-small"></div>
+        </div>
+        <div class="learn-section__circle-big"></div>
+        <div class="learn-section__statistics statistics">
+          <div class="statistics__item">
+            <div class="statistics__title">12,201</div>
+            <div class="statistics__desc">happy students</div>
+          </div>
+          <div class="vertical-stripe"></div>
+          <div class="statistics__item">
+            <div class="statistics__title">3,291</div>
+            <div class="statistics__desc">lectures</div>
+          </div>
+          <div class="vertical-stripe"></div>
+          <div class="statistics__item">
+            <div class="statistics__title">1,291</div>
+            <div class="statistics__desc">5 star reviews</div>
+          </div>
+        </div>
+
+        <div class="learn-section__flowbase flowbase">
+          <div class="flowbase__title title">What you'll learn</div>
+          <div class="flowbase__desc desc">
+            Create beautiful webflow sites with flowbase. Clone for free and get
+            started building a site today.
+          </div>
+          <div class="flowbase-list">
+            <div class="flowbase-list__item">
+              <img
+                class="flowbase-list__img"
+                src="img/module.svg"
+                alt="module"
+              />
+              <div class="flowbase-list__text">
+                <div class="flowbase-list__title">Analyzing User Data</div>
+                <div class="flowbase-list__desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </div>
+              </div>
+              <div class="flowbase-list__set">
+                <div class="flowbase-list__videos">6 videos</div>
+                <div class="flowbase-list__vertical-stripe"></div>
+                <div class="flowbase-list__hours">4.5 hours</div>
+              </div>
+            </div>
+            <div class="flowbase-list__item">
+              <img
+                class="flowbase-list__img"
+                src="img/module.svg"
+                alt="module"
+              />
+              <div class="flowbase-list__text">
+                <div class="flowbase-list__title">User Persona</div>
+                <div class="flowbase-list__desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </div>
+              </div>
+              <div class="flowbase-list__set">
+                <div class="flowbase-list__videos">6 videos</div>
+                <div class="flowbase-list__vertical-stripe"></div>
+                <div class="flowbase-list__hours">4.5 hours</div>
+              </div>
+            </div>
+            <div class="flowbase-list__item">
+              <img
+                class="flowbase-list__img"
+                src="img/module.svg"
+                alt="module"
+              />
+              <div class="flowbase-list__text">
+                <div class="flowbase-list__title">Prototyping</div>
+                <div class="flowbase-list__desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </div>
+              </div>
+              <div class="flowbase-list__set">
+                <div class="flowbase-list__videos">6 videos</div>
+                <div class="flowbase-list__vertical-stripe"></div>
+                <div class="flowbase-list__hours">4.5 hours</div>
+              </div>
+            </div>
+            <div class="flowbase-list__item">
+              <img
+                class="flowbase-list__img"
+                src="img/module.svg"
+                alt="module"
+              />
+              <div class="flowbase-list__text">
+                <div class="flowbase-list__title">Storyboarding</div>
+                <div class="flowbase-list__desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </div>
+              </div>
+              <div class="flowbase-list__set">
+                <div class="flowbase-list__videos">6 videos</div>
+                <div class="flowbase-list__vertical-stripe"></div>
+                <div class="flowbase-list__hours">4.5 hours</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="instructor-section">
+        <div class="instructor-section__text">
+          <div class="instructor-section__title title">
+            Hi, I am David, your course instructor.
+          </div>
+          <div class="instructor-section__desc desc">
+            Create beautiful webflow sites with flowbase. Clone for free and get
+            started building a site today.
+          </div>
+        </div>
+        <div class="instructor-section__img">
+          <div class="instructor-section___circle-small"></div>
+          <div class="instructor-section___circle-opasity"></div>
+          <img src="img/david.png" alt="instructor-section" />
+        </div>
+      </section>
+    </div>
+
+    <div class="container-students">
+      <section class="students-section">
+        <div class="students-section__title">What my students say</div>
+        <div class="students-section__desc">
+          Create custom landing pages with Shades that convert more visitors
+          than any website—no coding required.
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="students-item">
+              <div class="students-item__text">
+                “I waited to completely finish the course to rate it. This was
+                my first approach to python, i am an excel and VBA user. The
+                professor has an excellent way to explain it and a lot or order
+                and organization. I really recommend it.”
+              </div>
+              <div class="students-item__kit">
+                <img src="img/img4.png" alt="" class="students-item__img" />
+                <div class="students-item__info">
+                  <div class="students-item__name">Henk Fortuin</div>
+                  <div class="students-item__prof">Founder of Crips</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="students-item">
+              <div class="students-item__text">
+                “I waited to completely finish the course to rate it. This was
+                my first approach to python, i am an excel and VBA user. The
+                professor has an excellent way to explain it and a lot or order
+                and organization. I really recommend it.”
+              </div>
+              <div class="students-item__kit">
+                <img src="img/img5.png" alt="" class="students-item__img" />
+                <div class="students-item__info">
+                  <div class="students-item__name">Opi Watihana</div>
+                  <div class="students-item__prof">Founder of Crips</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="students-item">
+              <div class="students-item__text">
+                “I waited to completely finish the course to rate it. This was
+                my first approach to python, i am an excel and VBA user. The
+                professor has an excellent way to explain it and a lot or order
+                and organization. I really recommend it.”
+              </div>
+              <div class="students-item__kit">
+                <img src="img/img6.png" alt="" class="students-item__img" />
+                <div class="students-item__info">
+                  <div class="students-item__name">Annie Reyes</div>
+                  <div class="students-item__prof">Founder of Crips</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="faq">
+      <div class="container faq__container">
+        <div class="faq__title">Frequently asked questions</div>
+        <div class="accordion faq__list">
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <div class="accordion__title">
+                Will I get full access to the course after purchasing?
+              </div>
+              <div class="accordion__icon">
+                <span class="material-icons">expand_more</span>
+              </div>
+            </div>
+            <div class="accordion__content">
+              <div class="accordion__description">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <div class="accordion__title">
+                Will I get full access to the course after purchasing?
+              </div>
+              <div class="accordion__icon">
+                <span class="material-icons">expand_more</span>
+              </div>
+            </div>
+            <div class="accordion__content">
+              <div class="accordion__description">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <div class="accordion__title">
+                Will I get full access to the course after purchasing?
+              </div>
+              <div class="accordion__icon">
+                <span class="material-icons">expand_more</span>
+              </div>
+            </div>
+            <div class="accordion__content">
+              <div class="accordion__description">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__header">
+              <div class="accordion__title">
+                Will I get full access to the course after purchasing?
+              </div>
+              <div class="accordion__icon">
+                <span class="material-icons">expand_more</span>
+              </div>
+            </div>
+            <div class="accordion__content">
+              <div class="accordion__description">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="expert-section">
+        <div class="expert-section__circle">
+          <div class="expert-section__circle-small"></div>
+        </div>
+        <div class="expert-section__desc">Get 30 Days Money Back Guarantee</div>
+        <div class="expert-section__title title">
+          Ready to learn UX Design from the expert?
+        </div>
+        <a href="#" class="btn _primary">Get started</a>
+      </section>
+    </div>
+
+    <section class="subscribe-section">
+      <a href="" class="subscribe-section__img"
+        ><img src="img/logo.svg" alt="logo"
+      /></a>
+      <div class="subscribe-section__subscribe">
+        <input
+          type="email"
+          placeholder="Stay in the loop  - sign up with your email"
+        />
+        <a class="btn _primary subscribe-section__btn" href="#">
+          <svg
+            class="subscribe-section__svg"
+            width="15"
+            height="15"
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 14.6667C8.74867 14.6667 8.51667 14.5247 8.40333 14.298L6.42467 10.3407C6.316 10.1233 6.33467 9.86334 6.47267 9.66268L9.66667 5.33334L5.33667 8.52668C5.136 8.66534 4.876 8.68268 4.65867 8.57468L0.702001 6.59668C0.464668 6.47734 0.320001 6.22868 0.334668 5.96334C0.348668 5.69801 0.520001 5.46601 0.769334 5.37468L13.436 0.708009C13.6793 0.619342 13.9533 0.677342 14.138 0.862009C14.322 1.04534 14.382 1.32001 14.292 1.56401L9.62533 14.2307C9.53333 14.48 9.302 14.6513 9.03667 14.6653C9.02467 14.666 9.012 14.6667 9 14.6667Z"
+              fill="white"
+            />
+          </svg>
+          <span class="subscribe-section__span">Subscribe</span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__help">
+        <div class="footer__title">Help Menu</div>
+        <ul class="footer__ul">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Career</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <ul class="footer__ul">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer__product">
+        <div class="footer__title">Product</div>
+        <ul class="footer__ul">
+          <li><a href="#">Essential Landing Page</a></li>
+          <li><a href="#">Alpha Dashboard Pro</a></li>
+          <li><a href="#">Karnel Admin Dashboard</a></li>
+          <li><a href="#">Gray UI Kit</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

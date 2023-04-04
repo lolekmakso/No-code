@@ -1,0 +1,46 @@
+.expert-section {
+    position: relative;
+  text-align: center;
+  margin-bottom: 120px;
+
+  &__desc {
+    margin-bottom: 50px;
+    max-width: 402px;
+    margin-inline: auto;
+    padding: 8px 35px;
+    
+    background: linear-gradient(90deg, #ffd7a9 0%, #ffae70 100%);
+    border-radius: 33px;
+    @include text($ffAdd, 700, 1.2rem, 1.5rem, $purple-semi);
+  }
+
+  &__title{
+    margin-bottom: 30px;
+    max-width: 650px;
+    margin-inline: auto;
+  }
+}
+
+.expert-section__circle {
+  
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  border-radius: 50%;
+  background: $purpleGrad;
+  right: -390px;
+  top: -20px;
+  z-index: -2;
+}
+
+.expert-section__circle-small {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    background: $orangeGrad;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    
+}

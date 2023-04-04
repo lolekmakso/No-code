@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ffMain;
+  background: $white;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: $container;
+  margin-inline: auto;
+}
+
+section {
+  max-width: $section;
+  margin-inline: auto;
+}
+
+.btn {
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+  &._primary {
+	border: 1px solid transparent;
+    background: $purpleGrad;
+    border-radius: $radiusRound;
+    padding: 15px 30px;
+    @include text($ffMain, 700, 16px, 20px, $white);
+    transition: $transition;
+    &:hover {
+		color: $purple;
+		background: $white;
+		border: 1px solid $purple;
+    }
+  }
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.title {
+  @include text($ffAdd, 700, 4.6rem, 5.6rem, $darkBlue);
+}
+
+.desc {
+  @include text($ffMain, 400, 2rem, 3rem, $darkGreyBlue);
+}

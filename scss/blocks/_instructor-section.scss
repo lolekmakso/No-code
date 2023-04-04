@@ -1,0 +1,61 @@
+.instructor-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include tablet {
+    gap: 50px;
+    flex-direction: column;
+  }
+
+  &__text {
+    max-width: 560px;
+    @include tablet {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    @include tablet {
+      text-align: center;
+    }
+  }
+
+  &__img {
+    position: relative;
+    margin-right: 35px;
+
+    @include tablet {
+      margin-right: 0;
+    }
+    img {
+      width: 100%;
+      border-radius: 50%;
+      background: $purpleGrad;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding-top: 10px;
+    }
+  }
+}
+.instructor-section___circle-small {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: $orangeGrad;
+  left: -15px;
+  top: -15px;
+  z-index: -1;
+}
+
+.instructor-section___circle-opasity {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background: $orangeGrad;
+  right: -30px;
+  bottom: -20px;
+  z-index: -1;
+  opacity: 0.3;
+}
